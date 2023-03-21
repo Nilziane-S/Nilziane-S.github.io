@@ -15,16 +15,33 @@
   list-style: none;
 }
 
-.header-menu a {
+/* .header-menu a {
   text-decoration: none;
   font-size: 1.125rem;
   color: #462A00;
-  font-weight:400;
+  font-weight: 500;
   line-height: 2.62rem;
   padding: 10px 20px;
   display: block;
+  text-transform: uppercase;
 
+} INICIAL */
+
+
+
+.header-menu a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #462A00;
+  font-weight: 500;
+  line-height: 2.62rem;
+  padding: 10px 20px;
+  display: block;
+  text-transform: uppercase;
+
+ /* TESTE */
 }
+
 
 .header-menu a:hover{
   color: #A56607;
