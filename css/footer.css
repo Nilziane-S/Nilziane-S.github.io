@@ -1,0 +1,8 @@
+
+.contact .contact-copy{
+  display: grid;
+  grid-column: 1 / -1;
+  color: #7a7a7a;
+   font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+}

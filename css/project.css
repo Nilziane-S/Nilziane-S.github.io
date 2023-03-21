@@ -1,0 +1,99 @@
+
+.project-xp{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  background-color: #FDF5E8;
+  padding: 30px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.project-xp::before{
+  content: '';
+  display: block;
+  width: 6px;
+  height: 30px;
+  background-color: #7E4928;
+  position: absolute;
+  top: 18px;
+  left: -6px;
+
+}
+
+
+.project-title{
+  color: #31110B;
+  font-size: 1.5rem;
+  font-family: "roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0px;
+
+}
+
+.project-p{
+  color: #31110B;
+  font-size: 1.25rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  max-width: 35ch;
+  padding: 0px;
+  line-height: 1.6;
+}
+
+.project-skills{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* align-content: center; */
+  max-width: 40ch;
+  padding: 0px;
+}
+
+.project-skills li{
+  color: #462A00;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-family: "roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style: none;
+  padding: 5px 20px;
+  background-color: #F0D5AB;
+  margin-bottom: 5px;
+  border-radius: 4px;
+
+}
+
+@media (max-width: 800px){
+
+  .project-title{
+    font-size: 1.4rem;
+    line-height: 0.8;
+  
+  }
+
+  .project-p{
+    font-size: 1.2rem;
+  }
+
+  .project-skills li{
+    font-size: .8rem;
+    line-height: 1.2;
+    padding: 5px 10px;
+  }
+
+  .project-xp{
+    gap: 20px 30px;
+  }
+
+  .project-xp::before{
+    position: initial;
+  display: none;
+  }
+
+
+}

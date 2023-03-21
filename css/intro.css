@@ -1,0 +1,59 @@
+
+.intro{
+  padding: 40px 20px;
+  margin: 0 auto;
+  /* gap: 100px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width:1000px;
+  align-items:center;
+  margin-bottom: 100px;
+
+  }
+
+  .intro h1{
+    font-family: "playfair display", fira sans, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.70;
+    color: #532118;
+    text-align: center;
+    margin-bottom: 20px;
+    float:left;
+    max-width: 12ch;
+
+  }
+
+
+.img-fox{
+  max-width: 100%;
+  display: block;
+  justify-content: center;
+  float:right;
+  height: auto;
+}
+
+
+@media (max-width: 600px){
+
+.img-fox{
+  display: none;
+}
+
+.intro h1 {
+
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+  font-size: 2.9rem;
+  float: none;
+  max-width: initial;
+}
+
+.intro{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 80px;
+
+}
+
+}
