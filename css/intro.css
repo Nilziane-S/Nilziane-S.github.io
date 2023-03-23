@@ -20,21 +20,7 @@
     max-width: 18ch;
   }
 
-.img-fox{
-  max-width: 100%;
-  display: block;
-  align-items: right;
-  justify-content: center;
-   float:right;
-  height: auto;
-}
-
-
 @media (max-width: 600px){
-
-.img-fox{
-  display: none;
-}
 
 .intro h1 {
 
