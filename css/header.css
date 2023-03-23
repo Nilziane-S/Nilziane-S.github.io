@@ -8,44 +8,28 @@
 }
 
 .header-menu{
-  font-family: "fira sans", roboto, Arial, Helvetica, sans-serif;
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 10px;
   list-style: none;
+  padding: 20px 10px;
 }
-
-/* .header-menu a {
-  text-decoration: none;
-  font-size: 1.125rem;
-  color: #462A00;
-  font-weight: 500;
-  line-height: 2.62rem;
-  padding: 10px 20px;
-  display: block;
-  text-transform: uppercase;
-
-} INICIAL */
-
-
 
 .header-menu a {
+  font-family: "quicksand", fira sans, open sans, Arial, Helvetica, sans-serif;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   color: #462A00;
-  font-weight: 500;
   line-height: 2.62rem;
   padding: 10px 20px;
   display: block;
   text-transform: uppercase;
-
- /* TESTE */
 }
-
 
 .header-menu a:hover{
   color: #A56607;
-  transition: 0.10s;
+  transition:0.10s;
 }
 
 @media (max-width: 800px){
@@ -70,14 +54,10 @@
     background-color: #E4BD80;
     border-radius: 4px;
     font-size: 0.9rem;
-  
-    
   }
 
   .header-menu{
     gap: 20px;
-  
-   
   }
 
   .header{

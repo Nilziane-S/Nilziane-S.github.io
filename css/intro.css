@@ -7,21 +7,18 @@
   grid-template-columns: 1fr;
   margin-bottom: 100px;
   justify-items: center;
- 
 }
 
-
   .intro h1{
-    font-family: "playfair display", fira sans, Arial, Helvetica, sans-serif;
+    font-family: "fira sans", open sans, Arial, Helvetica, sans-serif; 
     font-weight: 500;
-    font-size: 4.2rem;
+    font-size: 3.9rem;
     line-height: 1.70;
     color: #532118;
     text-align: center;
     margin-bottom: 20px;
     max-width: 18ch;
-
-  } INICIAL
+  }
 
 .img-fox{
   max-width: 100%;
@@ -33,7 +30,7 @@
 }
 
 
-/* @media (max-width: 600px){
+@media (max-width: 600px){
 
 .img-fox{
   display: none;
@@ -55,4 +52,4 @@
 
 }
 
-} */
+}
