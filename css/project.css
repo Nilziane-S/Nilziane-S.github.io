@@ -1,10 +1,17 @@
+.project-container{
+  display: grid;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px 10px;
+}
+
+
 .project-xp{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
+  margin: 0 auto;
   background-color: #FDF5E8;
   padding: 30px;
-  margin: 0 auto;
   justify-items: left;
   gap: 10px 20px;
   margin-bottom: 40px;
@@ -41,7 +48,7 @@
   font-weight: 400;
   max-width: 35ch;
   padding: 0px;
-  line-height: 1.6;
+  line-height: 1.8;
   
 }
 
@@ -50,14 +57,14 @@
    flex-wrap: wrap;
     gap: 10px;
     max-width: 40ch;
-    padding: 0;
+    padding: 0px;
   }
 
 .project-skills li{
   color: #462A00;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.4;
+  /* line-height: 1.4; */
   font-family: "fira sans", Arial, Helvetica, sans-serif;
   list-style: none;
   background-color: #F0D5AB;
@@ -75,6 +82,7 @@
   .project-p{
     font-size: 0.8rem;
     line-height: 1.5;
+
   }
 
   
