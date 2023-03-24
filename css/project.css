@@ -46,11 +46,11 @@
 }
 
 .project-skills{
-  display: flex;
-  flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
   gap: 10px;
   max-width: 40ch;
-  padding: 0; 
+  padding: 0;
 }
 
 .project-skills li{
@@ -60,13 +60,13 @@
   line-height: 1.4;
   font-family: "fira sans", Arial, Helvetica, sans-serif;
   list-style: none;
-  padding: 5px 15px;
   background-color: #F0D5AB;
+  padding: 5px 15px;
   margin-bottom: 5px;
   border-radius: 4px;
 }
 
-@media (max-width: 800px){
+/* @media (max-width: 800px){
 
   .project-title{
     font-size: 1.4rem;
@@ -94,4 +94,4 @@
   }
 
 
-}
+} */
