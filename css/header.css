@@ -21,7 +21,6 @@
   font-size: 1.1rem;
   font-weight: 500;
   color: #462A00;
-  /* line-height: 2.62rem; */
   padding: 10px 20px;
   display: block;
   text-transform: uppercase;
@@ -38,17 +37,19 @@
   .header-menu a{
     background-color: #E4BD80;
     border-radius: 2px;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     padding: 5px 10px;
   }
 
   .header-menu{
     gap: 20px;
+    padding: 20px 10px 0px 10px;
   }
 
   .header{
     justify-content: center;
-    margin-top: 2px;
+    padding: 1px 10px;
+    margin-bottom: 0px;
   } 
 
 }

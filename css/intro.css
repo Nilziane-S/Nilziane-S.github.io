@@ -23,13 +23,14 @@
 @media (max-width: 600px){
 
 .intro h1 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .intro{
   display: grid;
   grid-template-columns: 1fr;
   margin-bottom: 20px;
+  padding: 1px 40px;
 
 }
 
