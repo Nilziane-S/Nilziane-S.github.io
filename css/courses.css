@@ -2,6 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 100px;
+  padding: 10px 190px;
 }
 
   .courses-title{
@@ -41,25 +42,35 @@
   } 
 
   
-@media (max-width: 800px){
+/* @media (max-width: 900px){
   .courses-container{
     margin-top: 1px;
+    padding: 0px;
   }
 
 
   .courses-title{
     font-size: 1.2rem;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    padding: 10px 190px;
+    text-align: left;
+
   }
 
 
   .courses-skills ul li{
     font-size: 0.8rem;
+  
   }
   
   .courses-skills span{
     font-size: 0.8rem;
   }
+
+.courses{
+  justify-content: left;
+}
+   */
 
 }
