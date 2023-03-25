@@ -16,8 +16,8 @@
     margin-bottom: 40px;
   }
 
+
 .courses ul {
-  padding: 0px;
   padding: 10px 190px;
   }
 
@@ -41,26 +41,51 @@
     list-style: none;
   } 
 
-@media (max-width: 900px){
+@media (max-width: 900px) and (min-width: 800px){
   .courses-container{
     margin-top: 1px;
     padding: 0px;
   }
 
-
   .courses-title{
-    font-size: 1.2rem;
-    margin-top: 30px;
+    font-size: 1.8rem;
+    margin-top: 50px;
     margin-bottom: 30px;
     padding: 10px 190px;
     text-align: left;
-
   }
 
+  .courses-skills ul li{
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .courses-skills span{
+    font-size: 1.25rem;
+  }
+
+.courses{
+  justify-content: left;
+}
+}
+
+@media (max-width: 800px) and (min-width: 600px){
+  .courses-container{
+    margin-top: 1px;
+    padding: 0px;
+  }
+
+  .courses-title{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px 190px;
+    text-align: left;
+  }
 
   .courses-skills ul li{
     font-size: 0.8rem;
-  
+    margin-bottom: 10px;
   }
   
   .courses-skills span{
@@ -70,5 +95,40 @@
 .courses{
   justify-content: left;
 }
+
+}
+
+@media (max-width: 600px){
+  .courses-container{
+    margin-top: 1px;
+    padding: 10px 50px;
+  }
+
+  .courses ul{
+    padding: 0px;
+  }
+
+  .courses-title{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px;
+    text-align: left;
+    padding: 10px 50px;
+  }
+
+  .courses-skills ul li{
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    padding: 0px 50px;
+  }
+  
+  .courses-skills span{
+    font-size: 0.8rem;
+  }
+
+
+
 
 }
