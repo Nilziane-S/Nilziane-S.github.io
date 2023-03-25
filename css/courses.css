@@ -41,8 +41,7 @@
     list-style: none;
   } 
 
-  
-/* @media (max-width: 900px){
+@media (max-width: 900px){
   .courses-container{
     margin-top: 1px;
     padding: 0px;
@@ -71,6 +70,5 @@
 .courses{
   justify-content: left;
 }
-   */
 
 }
