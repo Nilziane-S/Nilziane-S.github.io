@@ -53,11 +53,13 @@
 }
 
 .project-skills{
+  display: block;
    display: flex;
    flex-wrap: wrap;
     gap: 10px;
     max-width: 40ch;
     padding: 0px;
+    
   }
 
 .project-skills li{
@@ -70,8 +72,7 @@
   padding: 5px 15px;
   margin-bottom: 5px;
   border-radius: 4px;
-  display: block;
-  background-color: aqua;
+  display: block
 }
 
 @media (max-width: 800px){
