@@ -71,6 +71,7 @@
   margin-bottom: 5px;
   border-radius: 4px;
   display: block;
+  background-color: aqua;
 }
 
 @media (max-width: 800px){
