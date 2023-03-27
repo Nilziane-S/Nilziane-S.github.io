@@ -7,3 +7,11 @@
   font-size: 1.1rem;
   margin: 0px;
 }
+
+@media (max-width: 800px){
+
+  .contact .contact-copy{
+    font-size: .9rem;
+  }
+ 
+}
